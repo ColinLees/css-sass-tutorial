@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Source+Sans+Pro:400,600,700');
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #ebebeb;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100%;
+  min-width: 320px;
+}
+
+.center-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.page-header {
+  background-color: #055c58;
+  padding-top: 10px;
+}
+
+.header-content {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.header-logo {
+  background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-mobile%402x.png);
+  background-size: cover;
+  height: 35px;
+  width: 175px;
+  color: transparent;
+}
+
+.header-myaccount-link {
+  justify-self: end;
+  text-decoration: none;
+}
+
+.header-myaccount-link i {
+  padding-right: 10px;
+}
+
+.new-banner {
+  background-color: #092726;
+  color: #fff;
+  padding: 10px;
+}
+
+.new-banner .new-icon {
+  background-color: #fff;
+  font-size: 0.875em;
+  font-weight: 700;
+  margin-right: 15px;
+  padding: 5px 12px;
+  color: #1d3837;
+}
+
+.page-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #fff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 66%;
+}
+
+.page-content {
+  padding: 0px;
+}
+
+.page-footer {
+  border-top: 10px solid #00b79b;
+  background-color: #124a47;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px 25px;
+}
+
+.footer-logo {
+  background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-mobile%402x.png);
+  background-size: cover;
+  height: 35px;
+  width: 175px;
+  color: transparent;
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  column-count: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-copyright {
+  color: #fff;
+  background-color: #092726;
+  padding: 5px 0 0;
+  text-align: center;
+}
+
+.footer-copyright-content p {
+  margin: 0;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .page-header {
+    padding-top: 15px;
+  }
+
+  .header-content {
+    margin-bottom: 15px;
+  }
+
+  .header-logo {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-full%402x.png);
+    height: 50px;
+    width: 250px;
+  }
+
+  .new-banner {
+    padding: 15px 10px;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-logo {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-full%402x.png);
+    height: 50px;
+    width: 250px;
+  }
+
+  .footer-links {
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  .footer-copyright {
+    text-align: left;
+  }
+}
