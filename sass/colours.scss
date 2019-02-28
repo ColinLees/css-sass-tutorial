@@ -1,6 +1,163 @@
-$grey: #ebebeb;
-$white: #fff;
+$--green-1: #ebf2f2;
+$--green-2: #83aeac;
+$--green-3: #3a716e;
+$--green-4: #055c58;
+$--green-5: #124a47;
+$--green-6: #033d39;
+$--green-7: #092726;
+$--white: #ffffff;
+$--grey-1: #ebebeb;
+$--grey-2: #e1e1e1;
+$--grey-3: #cccccc;
+$--grey-4: #bcbcbc;
+$--grey-5: #999999;
+$--grey-6: #666666;
+$--grey-7: #333333;
+$--black: #000000;
+$--teal-2: #188479;
+$--focus-color: #ef8a16;
 
-$primary: #055c58;
-$primary-dark: #092726;
-$primary-light: #00b79b;
+// Helper classes
+.--bg-green-1 {
+    background-color: $--green-1;
+}
+
+.--tx-green-1 {
+    color: $--green-1;
+}
+
+.--bg-green-2 {
+    background-color: $--green-2;
+}
+
+.--tx-green-2 {
+    color: $--green-2;
+}
+
+.--bg-green-3 {
+    background-color: $--green-3;
+}
+
+.--tx-green-3 {
+    color: $--green-3;
+}
+
+.--bg-green-4 {
+    background-color: $--green-4;
+}
+
+.--tx-green-4 {
+    color: $--green-4;
+}
+
+.--bg-green-5 {
+    background-color: $--green-5;
+}
+
+.--tx-green-5 {
+    color: $--green-5;
+}
+
+.--bg-green-6 {
+    background-color: $--green-6;
+}
+
+.--tx-green-6 {
+    color: $--green-6;
+}
+
+.--bg-green-7 {
+    background-color: $--green-7;
+}
+
+.--tx-green-7 {
+    color: $--green-7;
+}
+
+.--bg-white {
+    background-color: $--white;
+}
+
+.--tx-white {
+    color: $--white;
+}
+
+.--bg-grey-1 {
+    background-color: $--grey-1;
+}
+
+.--tx-grey-1 {
+    color: $--grey-1;
+}
+
+.--bg-grey-2 {
+    background-color: $--grey-2;
+}
+
+.--tx-grey-2 {
+    color: $--grey-2;
+}
+
+.--bg-grey-3 {
+    background-color: $--grey-3;
+}
+
+.--tx-grey-3 {
+    color: $--grey-3;
+}
+
+.--bg-grey-4 {
+    background-color: $--grey-4;
+}
+
+.--tx-grey-4 {
+    color: $--grey-4;
+}
+
+.--bg-grey-5 {
+    background-color: $--grey-5;
+}
+
+.--tx-grey-5 {
+    color: $--grey-5;
+}
+
+.--bg-grey-6 {
+    background-color: $--grey-6;
+}
+
+.--tx-grey-6 {
+    color: $--grey-6;
+}
+
+.--bg-grey-7 {
+    background-color: $--grey-7;
+}
+
+.--tx-grey-7 {
+    color: $--grey-7;
+}
+
+.--bg-black {
+    background-color: $--black;
+}
+
+.--tx-black {
+    color: $--black;
+}
+
+.--bg-teal-2 {
+    background-color: $--teal-2;
+}
+
+.--tx-teal-2 {
+    color: $--teal-2;
+}
+
+.--bg-focus-color {
+    background-color: $--focus-color;
+}
+
+.--tx-focus-color {
+    color: $--focus-color;
+}

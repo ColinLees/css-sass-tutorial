@@ -1,5 +1,18 @@
-$device-xl: 'only screen and (min-width: 992px)';
-$device-l: 'only screen and (min-width: 1200px)';
-$device-m: 'only screen and (min-width: 768px)';
-$device-s: 'only screen and (min-width: 600px)';
-$device-xs: 'only screen and (max-width: 600px)';
+/* Custom, iPhone Retina */
+$device-xxs: "only screen and (max-width: 479px)"; // Extra extra small devices only
+$device-xxs-up: "only screen and (min-width : 320px)"; // Extra extra small devices and larger
+
+/* Extra Small Devices, Phones */
+$device-xs: "only screen and (min-width : 480px) and (max-width: 767px)"; // Extra small devices only
+$device-xs-up: "only screen and (min-width : 480px)"; // Extra small devices and larger
+
+/* Small Devices, Tablets */
+$device-sm: "only screen and (min-width : 768px) and (max-width: 991px)"; // Small devices only
+$device-sm-up: "only screen and (min-width : 768px)"; // Small devices and larger
+
+/* Medium Devices, Desktops */
+$device-md: "only screen and (min-width : 992px) and (max-width: 1199px)"; // Medium devices only
+$device-md-up: "only screen and (min-width : 992px)"; // Medium devices and larger
+
+/* Large Devices, Wide Screens */
+$device-lg: "only screen and (min-width : 1200px)"; // Large devices only

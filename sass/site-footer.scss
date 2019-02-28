@@ -1,0 +1,85 @@
+.site-footer {
+  border-top: 10px solid $--teal-2;
+  background-color: $--green-4;
+
+  .footer-atoz {
+    text-align: center;
+    color: $--white;
+
+    .footer-letters {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 10%);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      list-style: none;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0;
+
+      a {
+        border: 1px solid $--white;
+        border-radius: 50%;
+        padding: 10px;
+        color: $--white;
+        margin-bottom: 0;
+        text-decoration: none;
+        }
+    }
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 25px;
+
+    @media #{$device-md-up} {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .footer-logo {
+    background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-mobile%402x.png);
+    background-size: cover;
+    height: 35px;
+    width: 175px;
+    color: transparent;
+    font-size: 0;
+
+    @media #{$device-sm-up} {
+      background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-full%402x.png);
+      height: 50px;
+      width: 250px;
+    }
+  }
+
+  .footer-links {
+    list-style: none;
+    column-count: 1;
+    margin: 0;
+    padding: 0;
+
+    @media #{$device-sm-up} {
+      column-count: 2;
+      column-gap: 20px;
+    }
+
+    a {
+      color: $--white;
+    }
+  }
+
+  .footer-copyright {
+    color: $--white;
+    background-color: $--green-6;
+    padding: 5px 0 0;
+    text-align: center;
+
+    @media #{$device-sm-up} {
+      text-align: left;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

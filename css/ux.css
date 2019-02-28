@@ -1,0 +1,39 @@
+body {
+  font-family: "noto sans", sans-serif;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.75;
+  margin: 0 0 24px;
+  font-size: 16px;
+}
+
+.--heading-xl {
+  font-family: "Source sans pro", Arial, sans-serif;
+  font-weight: 700;
+  color: #055c58;
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin: 0 0 24px;
+  letter-spacing: -1px;
+}
+
+.--heading-l {
+  font-family: "source sans pro", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.33;
+  margin: 0 0 20px;
+}
+
+.--heading-m {
+  font-family: "source sans pro", arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin: 0 0 16px;
+}
+
+ul li{
+  line-height: 1.4;
+  margin-bottom: 16px;
+}

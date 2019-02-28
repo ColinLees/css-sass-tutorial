@@ -1,4 +1,221 @@
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Source+Sans+Pro:400,600,700");
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+.--bg-green-1 {
+  background-color: #ebf2f2; }
+
+.--tx-green-1 {
+  color: #ebf2f2; }
+
+.--bg-green-2 {
+  background-color: #83aeac; }
+
+.--tx-green-2 {
+  color: #83aeac; }
+
+.--bg-green-3 {
+  background-color: #3a716e; }
+
+.--tx-green-3 {
+  color: #3a716e; }
+
+.--bg-green-4 {
+  background-color: #055c58; }
+
+.--tx-green-4 {
+  color: #055c58; }
+
+.--bg-green-5 {
+  background-color: #124a47; }
+
+.--tx-green-5 {
+  color: #124a47; }
+
+.--bg-green-6 {
+  background-color: #033d39; }
+
+.--tx-green-6 {
+  color: #033d39; }
+
+.--bg-green-7 {
+  background-color: #092726; }
+
+.--tx-green-7 {
+  color: #092726; }
+
+.--bg-white {
+  background-color: #ffffff; }
+
+.--tx-white {
+  color: #ffffff; }
+
+.--bg-grey-1 {
+  background-color: #ebebeb; }
+
+.--tx-grey-1 {
+  color: #ebebeb; }
+
+.--bg-grey-2 {
+  background-color: #e1e1e1; }
+
+.--tx-grey-2 {
+  color: #e1e1e1; }
+
+.--bg-grey-3 {
+  background-color: #cccccc; }
+
+.--tx-grey-3 {
+  color: #cccccc; }
+
+.--bg-grey-4 {
+  background-color: #bcbcbc; }
+
+.--tx-grey-4 {
+  color: #bcbcbc; }
+
+.--bg-grey-5 {
+  background-color: #999999; }
+
+.--tx-grey-5 {
+  color: #999999; }
+
+.--bg-grey-6 {
+  background-color: #666666; }
+
+.--tx-grey-6 {
+  color: #666666; }
+
+.--bg-grey-7 {
+  background-color: #333333; }
+
+.--tx-grey-7 {
+  color: #333333; }
+
+.--bg-black {
+  background-color: #000000; }
+
+.--tx-black {
+  color: #000000; }
+
+.--bg-teal-2 {
+  background-color: #188479; }
+
+.--tx-teal-2 {
+  color: #188479; }
+
+.--bg-focus-color {
+  background-color: #ef8a16; }
+
+.--tx-focus-color {
+  color: #ef8a16; }
+
+:root {
+  font: 16px/1.75 "Noto Sans", Arial, sans-serif;
+  font-weight: 400;
+  color: #333333; }
+  @media only screen and (min-width: 768px) {
+    :root {
+      font-size: 18px;
+      font-weight: 1.77; } }
+
+.--heading-xl {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: #055c58;
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin: 0 0 24px;
+  letter-spacing: -1px; }
+  @media only screen and (min-width: 768px) {
+    .--heading-xl {
+      font-size: 2.666em;
+      line-height: 1.125;
+      margin: 0 0 32px; } }
+
+.--heading-l {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 1.33;
+  margin: 0 0 20px; }
+  @media only screen and (min-width: 768px) {
+    .--heading-l {
+      font-size: 1.8em;
+      line-height: 1.125; } }
+
+.--heading-m {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin: 0 0 16px; }
+  @media only screen and (min-width: 768px) {
+    .--heading-m {
+      font-size: 1.33em;
+      line-height: 1.33; } }
+
+.--heading-m-form {
+  margin: 0 0 8px; }
+  @media only screen and (min-width: 768px) {
+    .--heading-m-form {
+      font-size: 1.111em; } }
+
+.--body-m {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin: 0 0 32px; }
+  @media only screen and (min-width: 768px) {
+    .--body-m {
+      font-size: 1.33em;
+      line-height: 1.33; } }
+
+p,
+.--body-s {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 0 0 24px; }
+  @media only screen and (min-width: 768px) {
+    p,
+    .--body-s {
+      font-size: 1em;
+      line-height: 1.77; } }
+
+.--body-xs {
+  color: #666666;
+  font-size: 0.875em;
+  line-height: 1.71;
+  margin: 0 0 8px; }
+  @media only screen and (min-width: 768px) {
+    .--body-xs {
+      font-size: 0.88em;
+      line-height: 1.625; } }
+
+a {
+  color: #055c58;
+  margin: 0 0 24px;
+  text-decoration: underline; }
+  a:hover, a:active, a:focus {
+    text-decoration: none; }
+  a:active, a:focus {
+    outline: 3px solid #ef8a16; }
+
+.--bullet--list {
+  margin: 0 0 16px; }
+
+.--weight-bold {
+  font-weight: 700; }
+
+.--weight-semi-bold {
+  font-weight: 600; }
+
+.--weight-regular {
+  font-weight: 400; }
+
 html {
   height: 100%; }
 
@@ -8,105 +225,127 @@ body {
   grid-template-rows: auto 1fr auto;
   min-height: 100%; }
 
-.center-wrapper {
-  margin: 0 auto;
-  max-width: 1200px; }
-
-.page-header {
+.site-header {
   background-color: #055c58;
   padding-top: 10px; }
-  @media only screen and (min-width: 992px), only screen and (min-width: 1200px), only screen and (min-width: 768px) {
-    .page-header {
+  @media only screen and (min-width: 768px) {
+    .site-header {
       padding-top: 15px; } }
-  .page-header .header-content {
+  .site-header .header-content {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 10px; }
-    @media only screen and (min-width: 992px), only screen and (min-width: 1200px), only screen and (min-width: 768px) {
-      .page-header .header-content {
-        margin-bottom: 10px; } }
-  .page-header .header-logo {
+    @media only screen and (min-width: 768px) {
+      .site-header .header-content {
+        margin-bottom: 15px; } }
+  .site-header .header-logo {
     background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-mobile%402x.png);
     background-size: cover;
     height: 35px;
     width: 175px;
-    color: transparent; }
-    @media only screen and (min-width: 992px), only screen and (min-width: 1200px), only screen and (min-width: 768px) {
-      .page-header .header-logo {
+    color: transparent;
+    margin: 0; }
+    @media only screen and (min-width: 768px) {
+      .site-header .header-logo {
         background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-full%402x.png);
         height: 50px;
         width: 250px; } }
-  .page-header .header-myaccount-link {
+  .site-header .header-myaccount-link {
     justify-self: end;
     text-decoration: none; }
-    .page-header .header-myaccount-link i {
+    .site-header .header-myaccount-link i {
       padding-right: 10px; }
 
 .new-banner {
   background-color: #092726;
-  color: #fff;
+  color: #ffffff;
   padding: 10px; }
   .new-banner .new-icon {
-    background-color: #fff;
-    font-size: 0.875em;
+    background-color: #ffffff;
+    font-size: 1em;
     font-weight: 700;
     margin-right: 15px;
     padding: 5px 12px;
-    color: #1d3837; }
+    color: #124a47; }
+
+.center-wrapper {
+  margin: 0 auto;
+  max-width: 1200px; }
 
 .page-container {
   margin: 0 auto;
   max-width: 1200px;
-  background-color: #fff;
+  background-color: #ffffff;
   width: 100%;
   display: grid; }
-  @media only screen and (min-width: 992px), only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 992px) {
     .page-container {
       grid-template-columns: 66%; } }
 
 .page-content {
   padding: 0px; }
 
-.page-footer {
-  border-top: 10px solid #00b79b;
+.site-footer {
+  border-top: 10px solid #188479;
   background-color: #055c58; }
-  .page-footer .footer-content {
+  .site-footer .footer-atoz {
+    text-align: center;
+    color: #ffffff; }
+    .site-footer .footer-atoz .footer-letters {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 10%);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      list-style: none;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0; }
+      .site-footer .footer-atoz .footer-letters a {
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        padding: 10px;
+        color: #ffffff;
+        margin-bottom: 0;
+        text-decoration: none; }
+  .site-footer .footer-content {
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px 25px; }
-    @media only screen and (min-width: 992px), only screen and (min-width: 1200px) {
-      .page-footer .footer-content {
+    @media only screen and (min-width: 992px) {
+      .site-footer .footer-content {
         grid-template-columns: repeat(3, 1fr); } }
-  .page-footer .footer-logo {
+  .site-footer .footer-logo {
     background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-mobile%402x.png);
     background-size: cover;
     height: 35px;
     width: 175px;
     color: transparent;
     font-size: 0; }
-    @media only screen and (min-width: 992px), only screen and (min-width: 1200px), only screen and (min-width: 768px) {
-      .page-footer .footer-logo {
+    @media only screen and (min-width: 768px) {
+      .site-footer .footer-logo {
         background-image: url(https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/logo-stockport-full%402x.png);
         height: 50px;
         width: 250px; } }
-  .page-footer .footer-links {
+  .site-footer .footer-links {
     list-style: none;
     column-count: 1;
     margin: 0;
     padding: 0; }
-    @media only screen and (min-width: 992px), only screen and (min-width: 1200px), only screen and (min-width: 768px) {
-      .page-footer .footer-links {
+    @media only screen and (min-width: 768px) {
+      .site-footer .footer-links {
         column-count: 2;
         column-gap: 20px; } }
-  .page-footer .footer-copyright {
-    color: #fff;
-    background-color: #092726;
+    .site-footer .footer-links a {
+      color: #ffffff; }
+  .site-footer .footer-copyright {
+    color: #ffffff;
+    background-color: #033d39;
     padding: 5px 0 0;
     text-align: center; }
-    @media only screen and (min-width: 992px), only screen and (min-width: 1200px), only screen and (min-width: 768px) {
-      .page-footer .footer-copyright {
+    @media only screen and (min-width: 768px) {
+      .site-footer .footer-copyright {
         text-align: left; } }
-    .page-footer .footer-copyright p {
+    .site-footer .footer-copyright p {
       margin: 0; }
